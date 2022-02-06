@@ -1,10 +1,3 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App'
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
+export {default as Navbar} from './navbar/navbar'
+export { default as InfoSection} from './InfoSection/InfoSection';
+export { default as Footer } from './Footer/Footer'
